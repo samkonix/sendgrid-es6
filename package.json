@@ -1,6 +1,6 @@
 {
   "name": "sendgrid-es6",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ES6 wrapper for official sendgrid api",
   "main": "index.js",
   "scripts": {
