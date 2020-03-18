@@ -1,0 +1,26 @@
+{
+  "name": "sendgrid-es6",
+  "version": "1.0.0",
+  "description": "ES6 wrapper for official sendgrid api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samkonix/sendgrid-es6.git"
+  },
+  "keywords": [
+    "sendgrid",
+    "es6"
+  ],
+  "author": "Samuel Charnet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samkonix/sendgrid-es6/issues"
+  },
+  "homepage": "https://github.com/samkonix/sendgrid-es6#readme"
+  "dependencies": {
+    "@sendgrid/mail": "~6.5.1"
+  }
+}
