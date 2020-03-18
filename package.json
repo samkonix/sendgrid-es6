@@ -22,7 +22,7 @@
   "homepage": "https://github.com/samkonix/sendgrid-es6#readme",
   "dependencies": {
     "@sendgrid/mail": "~6.5.1"
-  }
+  },
   "babel": {
     "presets": [
       "env",
