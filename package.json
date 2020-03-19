@@ -1,10 +1,13 @@
 {
   "name": "sendgrid-es6",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "ES6 wrapper for official sendgrid api",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rimraf ./dist && babel src --out-dir ./dist",
+    "lint": "eslint ./src",
+    "lintfix": "eslint ./src --fix",
+    "watch": "watch 'npm run build' src"
   },
   "repository": {
     "type": "git",
@@ -53,11 +56,5 @@
     "rimraf": "^2.6.2",
     "semantic-release": "^15.13.25",
     "watch": "^1.0.2"
-  },
-  "scripts": {
-    "build": "rimraf ./dist && babel src --out-dir ./dist",
-    "lint": "eslint ./src",
-    "lintfix": "eslint ./src --fix",
-    "watch": "watch 'npm run build' src"
   }
 }
