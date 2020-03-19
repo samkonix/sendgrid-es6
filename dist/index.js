@@ -7,6 +7,9 @@ Object.defineProperty(exports, "__esModule", {
 
 const sgMail = require('@sendgrid/mail');
 
-exports.default = sgMail;
-module.exports = exports.default;
-module.exports.default = exports.default;
+module.exports = {
+  sendGrid: sgMail.sendGrid,
+  setApiKey: sgMail.setApiKey
+};
+module.exports.default = module.exports;
+
