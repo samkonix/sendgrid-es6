@@ -2,7 +2,7 @@
   "name": "sendgrid-es6",
   "version": "1.0.3",
   "description": "ES6 wrapper for official sendgrid api",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "rimraf ./dist && babel src --out-dir ./dist",
     "lint": "eslint ./src",
